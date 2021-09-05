@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- responsive code here -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <nav class="main_nav">
+    <div class="div1">
+        <h2>
+        MusicPlayer <i class="fas fa-music ic" id="rot"> 
+     </i>  
+</h2>
+</div>
+  <div class="search-box">
+     <input type="text" class="searchtext" placeholder="Search your fav...."><a href="" class="searchbtn"><i class="fas fa-search " style="align-items: center;"></i></a>
+  </div>
+ 
+    <div class="loggedin">
+    
+    </div>
+  
+
+    </nav>
+    <main>
+    <!-- <h2 class="lr">Latest Release</h2> -->
+    <div class="mainBody">
+      <!-- this wraps left section  -->
+      <div class="crouselWrapper">
+        <div class="outer-carousel">
+          <div class="carousel">
+              <!-- these are the 3 images in the carousel -->
+              <img src="media/crousel/carousel1.jpg">
+              <img src="media/crousel/carousel2.jpg">
+              <img src="media/crousel/carousel3.jpg">
+          </div>
+      </div>
+    
+      <div class="artist">
+        <h2>Popular Artsts</h2>
+        <div class="artistList">
+          <div class="artist_name">
+           <a href="Single Playlist Screen.html">
+             <img src="https://azadirecords.com/wp-content/uploads/2018/04/Seedhe-Maut-Samarth-Shirke-01-2000x2000.jpg" alt="seedhe maut">
+
+           </a>
+            <span>Seedhe Maut</span>
+  
+          </div>
+          <div class="artist_name">
+            <img src="https://i.scdn.co/image/ab6761610000e5eb3556727fb6c57d6e3f560298" alt="">
+            <span>YASHRAJ</span> 
+          </div>
+          <div class="artist_name">
+            
+            <img src="https://i.scdn.co/image/ab6761610000e5ebf5a8a314f0e0bd0576667981" alt="">
+            <span>Kr$na</span> 
+          </div>
+          <div class="artist_name">
+            
+            <img src="https://i.scdn.co/image/ab6761610000e5eb276369b9195d6f67470fd51a" alt="">
+            <span>Talha Anjum</span> 
+          </div>
+          <div class="artist_name ghost">
+            
+            <img src="https://i.scdn.co/image/ab6761610000e5ebf69978842bd3102db7611f77" alt="">
+            <span>Talhah Yunus</span> 
+          </div>
+          <div class="artist_name ghost">
+            
+            <img src="https://i.scdn.co/image/ab6761610000f17811aa68e47ed44069bc35d441" alt="">
+            <span>Karma</span> 
+          </div>
+  
+        </div>
+          <!-- <div class="music">Lorem ipsum dolor sit amet.</div> -->
+        </div>
+        <div class="fresh-release">
+          <h2> Fresh Release </h2>
+          <div class="NamesList">
+            <div class="card">
+              <a href="Single Playlist Screen.html"> <img src="media/songs/nanchaku.jpg" alt="byaan"> </a>
+              <div class="trackName">
+                <span>Nanchaku</span> <br>
+                <span style="font-weight: lighter;">August,2021</span>
+                
+              </div>
+              
+                <select name="DropD" id="DD" class="dropDownSelect" onchange="location=this.value;"> 
+                
+                <option value="Single Playlist Screen.html">play</option>
+                <option value="Single Playlist Screen.html">Add To Queue</option>
+                
+                </select>
+              
+            </div>
+            <div class="card">
+              <a href="Single Playlist Screen.html"> <img src="media/songs/anjaan.jpg" alt="byaan"> </a>
+              <div class="trackName">
+                <span>Anjaan</span> <br>
+                <span style="font-weight: lighter;">August,2021</span>
+                
+              </div>
+              
+                <select name="DropD" id="DD" class="dropDownSelect" onchange="location=this.value;"> 
+                
+                <option value="Single Playlist Screen.html">play</option>
+                <option value="Single Playlist Screen.html">Add To Queue</option>
+                
+                </select>
+              
+            </div>
+            <div class="card">
+              <a href="Single Playlist Screen.html"> <img src="media/songs/Weeknd.jpg" alt="byaan"> </a>
+              <div class="trackName">
+                <span>Binding Lights</span> <br>
+                <span style="font-weight: lighter;">August,2021</span>
+                
+              </div>
+              
+                <select name="DropD" id="DD" class="dropDownSelect" onchange="location=this.value;"> 
+                
+                <option value="Single Playlist Screen.html">play</option>
+                <option value="Single Playlist Screen.html">Add To Queue</option>
+                
+                </select>
+              
+            </div>
+            <div class="card">
+             <a href="Single Playlist Screen.html"> <img src="media/songs/sab chaiyahe.jpg" alt="byaan"> </a>
+              <div class="trackName">
+                <span>Sab Chaiyahe</span> <br>
+                <span style="font-weight: lighter;">August,2021</span>
+                
+              </div>
+              
+                <select name="DropD" id="DD" class="dropDownSelect" onchange="location=this.value;"> 
+                
+                <option value="Single Playlist Screen.html">play</option>
+                <option value="Single Playlist Screen.html">Add To Queue</option>
+                
+                </select>
+              
+            </div>
+            <div class="card">
+             <a href="Single Playlist Screen.html"> <img src="media/songs/daboij.jfif" alt="byaan"> </a>
+              <div class="trackName">
+                <span>Jackets</span> <br>
+                <span style="font-weight: lighter;">August,2021</span>
+                
+              </div>
+              
+                <select name="DropD" id="DD" class="dropDownSelect" onchange="location=this.value;"> 
+                
+                <option value="Single Playlist Screen.html">play</option>
+                <option value="Single Playlist Screen.html">Add To Queue</option>
+                
+                </select>
+              
+            </div>
+            <div class="card">
+             <a href="Single Playlist Screen.html"> <img src="media/songs/falling.jpg" alt="byaan"> </a>
+              <div class="trackName">
+                <span>Falling </span> <br>
+                <span style="font-weight: lighter;">August,2021</span>
+                
+              </div>
+              
+                <select name="DropD" id="DD" class="dropDownSelect" onchange="location=this.value;"> 
+                
+                <option value="Single Playlist Screen.html">play</option>
+                <option value="Single Playlist Screen.html">Add To Queue</option>
+                
+                </select>
+              
+            </div>
+            
+
+
+          </div>
+        </div>
+      <!-- this is the music themes part, the one with the tri-gradient background -->
+      <div class="music-themes">
+        <!-- this div will be the logo of music themes, see the output, the one with 3 squares/rects  -->
+        <!-- the logo with orange, green and yellow color -->
+        <div class="stations">
+            <div id="div1">
+                <div id="div2">
+                    <div id="div3">
+                        <img src="media/website_logo.png">
+                        <p>Stations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- this is the content part of them themes -->
+        <!-- the one which changes colors on hover -->
+        <div class="theme-main">
+            <div class="theme-content">
+                <img src="media/music themes/chill.jpg">
+                <p>Vibe</p>
+            </div>
+            <div class="theme-content">
+                <img src="media/music themes/rock.jpg">
+                <p>Rock</p>
+            </div>
+            <div class="theme-content">
+                <img src="media/music themes/love.jpg">
+                <p>Love</p>
+            </div>
+            <div class="theme-content">
+                <img src="media/music themes/pop.jpg">
+                <p>Pop</p>
+            </div>
+            <div class="theme-content">
+                <img src="media/music themes/retro.jpg">
+                <p>Retro</p>
+            </div>
+            <div class="theme-content">
+                <img src="media/music themes/workout.jpg">
+                <p>GYM</p>
+            </div>
+        </div>
+    </div>
+
+                <!-- this is another themes portion, that electronic, party and road theme -->
+                <div class="music-themes-2">
+                  <!-- 3 divs content -->
+                  <div class="outer-div">
+                      <div class="inner-div">
+                          <span>party</span>
+                      </div>
+                  </div>
+                  <div class="outer-div">
+                      <div class="inner-div">
+                          <span>Electronic</span>
+                      </div>
+                  </div>
+                  <div class="outer-div">
+                      <div class="inner-div">
+                          <span>Travel</span>
+                      </div>
+                  </div>
+              </div>
+ <!-- div over -->
+            <!-- this div contains the language section of the page -->
+            <!-- "language class is common to both hindi and english sections" -->
+            <!-- in this way redundancy is handled. considering the re-usability of the code -->
+            <div class="language english">
+              <!-- latest english section -->
+              <h1 class="language-heading">
+                  Latest English
+              </h1>
+              <!-- contents of latest english -->
+              <div class="language-content">
+                  <div>
+                      <img src="media/latest english/I'll Wait.jpg">
+                      <p>I'll Wait</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+                  <div>
+                      <img src="media/latest english/let me go.jpg">
+                      <p>Let me Go!</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+                  <div>
+                      <img src="media/latest english/qurantine clean.jpg">
+                      <p>Qurantine Clean</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+                  <div>
+                      <img src="media/latest english/roar.jpg">
+                      <p>Roar</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+                  <div>
+                      <img src="media/latest english/toosie slide.jpg">
+                      <p>Toosie Slide</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+                  <div>
+                      <img src="media/latest english/uptown funk.png">
+                      <p>Uptown Funk</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+              </div>
+          </div>
+          <!-- this is the hindi section -->
+          <div class="language hindi">
+              <!-- hindi section heading -->
+              <h1 class="language-heading">
+                  Latest Hindi
+              </h1>
+              <!-- hindi section contents -->
+              <div class="language-content">
+
+                  <div>
+                      <img src="media/latest hindi/baarish.jpeg">
+                      <p>Baarish</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+                  <div>
+                      <img src="media/latest hindi/galiyaan.jpg">
+                      <p>Galiyaan</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+                  <div>
+                      <img src="media/latest hindi/giveme some sunshine.jpg">
+                      <p>Give me Some Sunshine</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+                  <div>
+                      <img src="media/latest hindi/kaun tujhe.jpg">
+                      <p>Kaun Tujhe</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+                  <div>
+                      <img src="media/latest hindi/tera ban jaunga.jpg">
+                      <p>Tera Ban Jaunga</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+                  <div>
+                      <img src="media/latest hindi/tere sang yara.jpg">
+                      <p>Tere Sang Yaara</p>
+                      <p>Aug 11, 2017</p>
+                  </div>
+              </div>
+          </div>
+                      
+    
+      </div>
+    
+    <!-- first section ends here -->
+       <aside class="queue">
+           <div class="queuehead">  <h2>Queue</h2> 
+            <select name="boc" id="sb" class="selectBox"> 
+             <option value="queue">Queue </option>
+             <option value="playlist">Playlist</option>
+           </select> 
+          </div>
+          <div class="songs">
+           <div class="tracks">
+             01 <div class="t1" > </div>
+             <div class="td"><a class="tName" href="#">
+               Dehshat
+             </a>
+             <a class="aName" href="#"> Seedhe Maut </a>
+             </div>
+             <div class="like"> <i class="far fa-heart"></i></div>
+           </div>
+           <div class="tracks">
+            02 <div class="t2" > </div>
+            <div class="td"><a class="tName" href="#">
+              Naamcheen
+            </a>
+            <a class="aName" href="#"> Seedhe Maut </a>
+            </div>
+            <div class="like"> <i class="far fa-heart"></i></div>
+          </div>
+           <div class="tracks">
+             03 <div class="t3" > </div>
+             <div class="td"><a class="tName" href="#">
+               Namastue
+             </a>
+             <a class="aName" href="#"> Seedhe Maut </a>
+             </div>
+             <div class="like"> <i class="far fa-heart"></i></div>
+           </div>
+           <div class="tracks">
+            04 <div class="t4" > </div>
+            <div class="td"><a class="tName" href="#">
+               Aaina
+            </a>
+            <a class="aName" href="#"> Afkap </a>
+            </div>
+            <div class="like"> <i class="far fa-heart"></i></div>
+          </div>
+           <div class="tracks">
+            05 <div class="t5" > </div>
+            <div class="td"><a class="tName" href="#">
+               Been too  Long
+            </a>
+            <a class="aName" href="#"> YashRaj </a>
+            </div>
+            <div class="like"> <i class="far fa-heart"></i></div>
+          </div>
+           <div class="tracks">
+            06 <div class="t6" > </div>
+            <div class="td"><a class="tName" href="#">
+               Part of me
+            </a>
+            <a class="aName" href="#"> Yashraj </a>
+            </div>
+            <div class="like"> <i class="far fa-heart"></i></div>
+          </div>
+          <div class="tracks">
+            06 <div class="t6" > </div>
+            <div class="td"><a class="tName" href="#">
+               Part of me
+            </a>
+            <a class="aName" href="#"> Yashraj </a>
+            </div>
+            <div class="like"> <i class="far fa-heart"></i></div>
+          </div><div class="tracks">
+            06 <div class="t6" > </div>
+            <div class="td"><a class="tName" href="#">
+               Part of me
+            </a>
+            <a class="aName" href="#"> Yashraj </a>
+            </div>
+            <div class="like"> <i class="far fa-heart"></i></div>
+          </div><div class="tracks">
+            06 <div class="t6" > </div>
+            <div class="td"><a class="tName" href="#">
+               Part of me
+            </a>
+            <a class="aName" href="#"> Yashraj </a>
+            </div>
+            <div class="like"> <i class="far fa-heart"></i></div>
+          </div><div class="tracks">
+            06 <div class="t6" > </div>
+            <div class="td"><a class="tName" href="#">
+               Part of me
+            </a>
+            <a class="aName" href="#"> Yashraj </a>
+            </div>
+            <div class="like"> <i class="far fa-heart"></i></div>
+          </div><div class="tracks">
+            06 <div class="t6" > </div>
+            <div class="td"><a class="tName" href="#">
+               Part of me
+            </a>
+            <a class="aName" href="#"> Yashraj </a>
+            </div>
+            <div class="like"> <i class="far fa-heart"></i></div>
+          </div><div class="tracks">
+            06 <div class="t6" > </div>
+            <div class="td"><a class="tName" href="#">
+               Part of me
+            </a>
+            <a class="aName" href="#"> Yashraj </a>
+            </div>
+            <div class="like"> <i class="far fa-heart"></i></div>
+          </div>
+          </div>
+          </aside>
+        </div>
+       </div>
+    </div>
+    </main>
+  <!-- main part of the page is over. -->
+    <!-- this is the footer part. -->
+    <!-- its position will be fixed to the screen bottom. -->
+    <footer>
+      <div class="active-song-description">
+          <!-- song image -->
+          <div id="song-image">
+              <img src="media/songs/sab chaiyahe.jpg">
+          </div>
+          <!-- song name and author -->
+          <div class="song-desc">
+              <div>
+                  Imagine by John
+              </div>
+              <div>
+                  John Lenon
+              </div>
+              <!-- heart icon and ban icon -->
+          </div>
+          <div class="heart-and-ban-icon">
+              <span>
+                  <i class="far fa-heart"></i>
+              </span>
+              <span>
+                  <i class="fas fa-ban"></i>
+              </span>
+          </div>
+      </div>
+      <!-- these are the main player controls -->
+      <div class="player">
+          <div class="controls">
+              <div><i class="fas fa-random"></i></div>
+              <div><i class="fas fa-step-backward"></i></div>
+              <div><i class="fas fa-pause-circle"></i></div>
+              <div><i class="fas fa-step-forward"></i></div>
+              <div><i class="fas fa-redo"></i></div>
+          </div>
+          <!-- this is the slider -->
+          <div id="slider">
+              <!-- current time -->
+              <div class="time">
+                  1:39
+              </div>
+              <div class="slidecontainer">
+                  <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+              </div>
+              <!-- total time -->
+              <div class="time">
+                  4:44
+              </div>
+          </div>
+      </div>
+      <!-- other icons including the volume slider and all -->
+      <div class="extras">
+          <div>
+              <i class="fas fa-list-ul"></i>
+          </div>
+          <div>
+              <i class="fas fa-laptop"></i>
+          </div>
+          <div>
+              <i class="fas fa-volume-up"></i>
+          </div>
+          <div class="slidecontainer" style="width:30%;">
+              <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+          </div>
+          <div>
+              <i class="fas fa-expand-alt"></i>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,710 @@
+
+@media only screen and (max-width: 900px) {
+    .main_nav{
+        height: 70px;
+        font-size: 13px;
+    }
+    .div1 h2{
+     font-size: 1rem;
+    }
+    .searchbtn{
+     text-decoration: none;
+     width: 2rem;
+     height: 5rem;
+     position: absolute;
+    right: -1rem;
+    top:1.7rem;
+    
+     
+ }
+ .searchtext{
+     width: 6.5rem;
+     border: 4rem;
+     border: none;
+     outline: none;
+     padding: .5rem;
+     border-radius: 25px;
+ }
+ .search-box{
+     margin-right: 1.5rem;
+         position: relative;
+         display: flex;
+         justify-content: right;
+         align-items: center;
+     }
+ .loggedin{
+     margin-top: .5rem;
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9hTaxpVt0DxvzGGAhKgWHfoauzuKv2cNpA&usqp=CAU');
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 50%;
+     height: 2.5rem;
+     width: 2.5rem;
+ }
+ .ab{
+     height: 150px;
+     width: 150px;
+ }
+ .ab:hover{
+     height: 160px;
+     width: 160px;
+     box-shadow: 20px 23px 36px 3px rgba(0,0,0,0.48);
+ -webkit-box-shadow: 20px 23px 36px 3px rgba(0,0,0,0.48);
+ -moz-box-shadow: 20px 23px 36px 3px rgba(0,0,0,0.48);
+ }
+ .crouselWrapper{
+     width: 100%;
+ }
+ /* carousel adjustment */
+ .outer-carousel {
+  
+    width: 99%;
+    position: relative;
+    left: 0vw;
+    margin-top: 5%;
+    transition: all ease-in-out 1s;
+}
+/* crousel itself */
+.carousel {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    justify-content: space-around;
+}
+/* carousel image */
+.carousel img {
+    height: 23vw;
+    width: 34.5vw;
+}
+/* first and 3rd images of the carousel */
+.carousel img:nth-child(1) {
+    left: 56vw;
+}
+.carousel img:nth-child(3) {
+    right: 56vw;
+} /* since the size of the carousel images is increased, the hover size should also be increased */
+.carousel img:hover {
+    height: 27vw;
+    width: 40.5vw;
+}
+/* music themes section */
+.music-themes {
+    position: relative;
+    top: 30vw;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-image: var(--music-themes-background-image);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* order: 4; */
+    justify-content: space-around;
+}
+/* theme css*/
+.music-themes-2 {
+    position: relative;
+    top: 33vw;
+    height: auto;
+    width: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.theme-main {
+    width: 50%;
+}
+/* theme content */
+/* increased theme content size */
+.theme-content {
+    width: 12vw;
+    height: 12vw;
+}
+.theme-content p {
+    font-size: 3vw;
+    top: -15.5vw;
+}
+/* increased music themes image size */
+.music-themes div img {
+    width: 12vw;
+    height: 12vw;
+}
+ 
+ .queue{
+     display: none;
+ }
+ /* artst css */
+ .artist {
+    color: var(--white);
+    position: relative;
+    top: 12rem;
+    width: 100%;
+    /* background-color: yellow; */
+    height: 50rem;
+    text-align: center;
+   
+}
+ .artist1{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://azadirecords.com/wp-content/uploads/2018/04/Seedhe-Maut-Samarth-Shirke-01-2000x2000.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+.artist2{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://i.scdn.co/image/ab6761610000e5eb3556727fb6c57d6e3f560298');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+.artist3{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://i.scdn.co/image/ab6761610000e5ebf5a8a314f0e0bd0576667981');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+.artist4{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://i.scdn.co/image/ab6761610000e5eb276369b9195d6f67470fd51a');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+.artist5{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://i.scdn.co/image/ab6761610000e5ebf69978842bd3102db7611f77');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+.artist6{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://i.scdn.co/image/ab6761610000f17811aa68e47ed44069bc35d441');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+/* language css */
+.language {
+    position: relative;
+    top: 37vw;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    order: 6;
+    font-family: var(--font);
+    color: var(--white);
+}
+ }
+ @media only screen and (max-width: 650px) {
+    .main_nav{
+        height: 70px;
+        font-size: 13px;
+    }
+    .div1 h2{
+     font-size: 1rem;
+    }
+    .searchbtn{
+     text-decoration: none;
+     width: 2rem;
+     height: 5rem;
+     position: absolute;
+    right: -1rem;
+    top:1.7rem;
+    
+     
+ }
+ .searchtext{
+     width: 6.5rem;
+     border: 4rem;
+     border: none;
+     outline: none;
+     padding: .5rem;
+     border-radius: 25px;
+ }
+ .search-box{
+     margin-right: 1.5rem;
+         position: relative;
+         display: flex;
+         justify-content: right;
+         align-items: center;
+     }
+ .loggedin{
+     margin-top: .5rem;
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9hTaxpVt0DxvzGGAhKgWHfoauzuKv2cNpA&usqp=CAU');
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 50%;
+     height: 2.5rem;
+     width: 2.5rem;
+ }
+ .queue{
+     display: none;
+
+
+ }
+
+ /* artist css */
+ 
+ .artist1{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://azadirecords.com/wp-content/uploads/2018/04/Seedhe-Maut-Samarth-Shirke-01-2000x2000.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+.artist2{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://i.scdn.co/image/ab6761610000e5eb3556727fb6c57d6e3f560298');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+.artist3{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://i.scdn.co/image/ab6761610000e5ebf5a8a314f0e0bd0576667981');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+.artist4{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://i.scdn.co/image/ab6761610000e5eb276369b9195d6f67470fd51a');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+.artist5{
+    margin-bottom: 1rem;
+   
+    background-image: url('https://i.scdn.co/image/ab6761610000e5ebf69978842bd3102db7611f77');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+.artist6{
+    margin-bottom: 1rem;
+  
+    background-image: url('https://i.scdn.co/image/ab6761610000f17811aa68e47ed44069bc35d441');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width:  8rem;
+    height: 8rem;
+}
+/* to adjust witdh of artist sections */
+.width44{
+    height: 9rem;
+    width: 9rem;
+}
+
+.artist_name span{
+    font-size: .7rem;
+
+}
+.trackName{
+    width: 39%;
+}
+.trackName span {
+    font-size: .89rem;
+    margin-left: 10px;
+    color: var(--white);
+    position: relative;
+    top: 1.2rem;
+    word-wrap: break-word;
+}
+
+/* adjusting themes */
+.music-themes {
+    position: relative;
+    top: 34vw;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-image: var(--music-themes-background-image);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* order: 4; */
+    justify-content: space-around;
+}
+
+.music-themes-2 {
+    position: relative;
+    top: 40vw;
+    height: auto;
+    width: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* adjusting language section*/
+.language {
+    position: relative;
+    top: 40vw;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    order: 6;
+    font-family: var(--font);
+    color: var(--white);
+}
+ }
+
+
+ 
+@media screen and (max-width: 550px) {
+	/* this is the most important media query */
+	
+
+	.theme-main {
+		width: 100%;
+	}
+	/* theme content */
+	.theme-content {
+		width: 18vw;
+		height: 18vw;
+	}
+	.theme-content p {
+		font-size: 4.5vw;
+		top: -22.7vw;
+	}
+	.music-themes div img {
+		width: 18vw;
+		height: 18vw;
+	}
+
+	/* stations */
+	/* this is the stations section- those colorful boxes in the tri-linear-gradient div */
+	#div1 {
+		width: 30vw;
+		height: 20vw;
+	}
+	#div2 {
+		width: 28vw;
+		height: 24vw;
+	}
+	#div3 {
+		width: 26vw;
+		height: 26vw;
+	}
+	#div3 img {
+		width: 12vw;
+		height: 12vw;
+	}
+	/* text part in that section which contains "stations" text */
+	#div3 p {
+		font-size: 5vw;
+	}
+	.outer-div .inner-div span {
+		font-size: 6vw;
+	}
+ 
+    /* fresh relese css starts here  */
+.fresh-release{
+    position: relative;
+    top: 8rem;
+    width: 100%;
+   order: 2;
+}
+.NamesList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+  
+   height: auto;
+   width: 90%;
+   margin: 1% 0% 3% 1%;
+   transition: box-shadow ease-in-out 0.1s;
+   font-family: var(--font);
+   font-weight: bold;
+   font-size: 1.1rem;
+}
+.card:hover {
+    box-shadow: 0px 0px 2px 1px white;
+}
+.card img{
+    height: 65px;
+    width: 65px;
+}
+.fresh-release h2{
+    text-align: center;
+    color: var(--white);
+}
+
+.trackName span {
+   
+    margin-left: 1rem;
+    color: var(--white);
+    position: relative;
+    top: 1rem;
+    
+}
+
+.dropDownSelect{
+    background: transparent;
+    width: 4rem;
+    height: 2rem;
+    color: var(--white);
+    border: none;
+    font-family: var(--font);
+    
+}
+.dropDownSelect option{
+    color: black;
+}
+/* fresh relese css ends here  */
+
+/* theme css  */
+.music-themes {
+    position: relative;
+    top: 42vw;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-image: var(--music-themes-background-image);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* order: 4; */
+    justify-content: space-around;
+}
+
+.music-themes-2 {
+    position: relative;
+    top: 45vw;
+    height: auto;
+    width: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.language {
+    position: relative;
+    top: 46vw;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    order: 6;
+    font-family: var(--font);
+    color: var(--white);
+}
+}
+
+ 
+@media screen and (max-width: 450px) {
+	/* this is the most important media query */
+	
+
+	.theme-main {
+		width: 100%;
+	}
+	/* theme content */
+	.theme-content {
+		width: 18vw;
+		height: 18vw;
+	}
+	.theme-content p {
+		font-size: 4.5vw;
+		top: -22.7vw;
+	}
+	.music-themes div img {
+		width: 18vw;
+		height: 18vw;
+	}
+
+	/* stations */
+	/* this is the stations section- those colorful boxes in the tri-linear-gradient div */
+	#div1 {
+		width: 30vw;
+		height: 20vw;
+	}
+	#div2 {
+		width: 28vw;
+		height: 24vw;
+	}
+	#div3 {
+		width: 26vw;
+		height: 26vw;
+	}
+	#div3 img {
+		width: 12vw;
+		height: 12vw;
+	}
+	/* text part in that section which contains "stations" text */
+	#div3 p {
+		font-size: 5vw;
+	}
+	.outer-div .inner-div span {
+		font-size: 6vw;
+	}
+ 
+    /* fresh relese css starts here  */
+.fresh-release{
+    position: relative;
+    top: 8rem;
+    width: 100%;
+   order: 2;
+}
+.NamesList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+  
+   height: auto;
+   width: 90%;
+   margin: 1% 0% 3% 1%;
+   transition: box-shadow ease-in-out 0.1s;
+   font-family: var(--font);
+   font-weight: bold;
+   font-size: 1.1rem;
+}
+.card:hover {
+    box-shadow: 0px 0px 2px 1px white;
+}
+.card img{
+    height: 65px;
+    width: 65px;
+}
+.fresh-release h2{
+    text-align: center;
+    color: var(--white);
+}
+
+.trackName span {
+   
+    margin-left: 1rem;
+    color: var(--white);
+    position: relative;
+    top: 1rem;
+    
+}
+
+.dropDownSelect{
+    background: transparent;
+    width: 4rem;
+    height: 2rem;
+    color: var(--white);
+    border: none;
+    font-family: var(--font);
+    
+}
+.dropDownSelect option{
+    color: black;
+}
+/* fresh relese css ends here  */
+
+/* theme css  */
+.music-themes {
+    position: relative;
+    top: 50vw;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-image: var(--music-themes-background-image);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* order: 4; */
+    justify-content: space-around;
+}
+
+.music-themes-2 {
+    position: relative;
+    top: 55vw;
+    height: auto;
+    width: 95%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.language {
+    position: relative;
+    top: 57vw;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    order: 6;
+    font-family: var(--font);
+    color: var(--white);
+}
+.language-content div p:nth-child(2n) {
+    width: 100%;
+    font-size: 12px;
+    font-weight: bolder;
+    word-wrap: break-word;
+}
+.language-content div p:nth-child(2n + 1) {
+    font-size: 11px;
+    font-weight: lighter;
+}
+}
